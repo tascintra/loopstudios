@@ -8,4 +8,15 @@ header {
   height: 65vh;
   max-width: 1440px;
   margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.menu {
+  display: flex;
+  gap: 35px;
+
 }
