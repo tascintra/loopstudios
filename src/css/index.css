@@ -1,0 +1,6 @@
+@import './base.css';
+
+header {
+  background: black;
+  height: 65vh;
+}
