@@ -23,5 +23,16 @@ header {
 .menu {
   display: flex;
   gap: 35px;
+}
 
+.main-title {
+  font-family: var(--hglight-font);
+  font-size: 4.5rem;
+  font-weight: lighter;
+  color: white;
+  text-transform: uppercase;
+  max-width: 12ch;
+  margin: 65px 165px;
+  border: 2px solid white;
+  padding: 40px 100px 40px 40px;
 }
