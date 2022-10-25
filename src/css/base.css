@@ -18,3 +18,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+/* Standards */
+:root {
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
+
+  --hglight-font: 'Josefin Sans', Helverica, sans-serif;
+  --body-font: Atala, Helverica, sans-serif;
+}
