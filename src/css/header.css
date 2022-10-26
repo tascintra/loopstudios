@@ -45,13 +45,12 @@ header {
 }
 
 .hamburger-lines {
-  display: block;
+  display: none;
   height: 26px;
   width: 32px;
   top: 17px;
   left: 20px;
   z-index: 2;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
@@ -102,6 +101,10 @@ header {
 @media (max-width: 800px) {
   .top-menu {
     padding: 65px 60px;
+  }
+
+  .hamburger-lines {
+    display: flex;
   }
 
   .hamburger-lines .line {
