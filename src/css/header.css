@@ -6,7 +6,6 @@
 
 header {
   /* background: url("../../public/desktop/image-hero.jpg"); */
-  background-size: cover;
   height: 65vh;
   max-width: 1440px;
   margin: 0 auto;
@@ -117,5 +116,58 @@ header {
     font-size: 3rem;
     padding: 40px 50px 25px 40px;
     margin: 65px 60px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header-back {
+    background: url("../../public/mobile/image-hero.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  .main-title {
+    font-size: 3.5rem;
+    max-width: 11ch;
+    margin: 165px 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .top-menu {
+    padding: 65px 35px;
+  }
+
+  .main-title {
+    margin: 165px 35px;
+    padding: 40px 130px 25px 40px;
+  }
+}
+
+@media (max-width: 530px) {
+  .main-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    padding: 30px 130px 20px 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .main-title {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .main-title {
+    font-size: 2.3rem;
+    padding: 25px 130px 20px 20px;
   }
 }
