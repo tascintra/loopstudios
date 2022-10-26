@@ -34,5 +34,44 @@ header {
   max-width: 12ch;
   margin: 65px 165px;
   border: 2px solid white;
-  padding: 40px 70px 20px 40px;
+  padding: 40px 70px 25px 40px;
+}
+
+@media (max-width: 1100px) {
+  .main-title {
+    font-size: 3.5rem;
+    padding: 40px 40px 25px 40px;
+  }
+
+  .menu {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 950px) {
+  .top-menu {
+    padding: 65px 100px;
+  }
+
+  .main-title {
+    font-size: 3rem;
+    padding: 40px 50px 25px 40px;
+    margin: 65px 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .top-menu {
+    padding: 65px 60px;
+  }
+
+  .top-menu nav {
+    display: none;
+  }
+
+  .main-title {
+    font-size: 3rem;
+    padding: 40px 50px 25px 40px;
+    margin: 65px 60px;
+  }
 }
