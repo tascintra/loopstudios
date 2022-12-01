@@ -1,6 +1,6 @@
 .header-back {
   /* background: linear-gradient(45deg, #8c2fae, #b447f0); */
-  background: url("../../public/desktop/image-hero.jpg") no-repeat;
+  background: url("../../public/desktop/image-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -16,7 +16,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 65px 165px;
+  padding: 65px 205px;
 }
 
 .menu {
@@ -31,9 +31,9 @@ header {
   color: white;
   text-transform: uppercase;
   max-width: 12ch;
-  margin: 65px 165px;
+  margin: 70px 205px;
   border: 2px solid white;
-  padding: 40px 70px 25px 40px;
+  padding: 40px 80px 25px 40px;
 }
 
 .hamburger-lines .line {
