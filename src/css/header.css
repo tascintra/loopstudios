@@ -128,10 +128,6 @@ header {
     background-size: cover;
   }
 
-  header {
-    height: 100vh;
-  }
-
   .main-title {
     font-size: 3.5rem;
     max-width: 11ch;
