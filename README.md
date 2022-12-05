@@ -3,3 +3,5 @@
 ## Loopstudios landing page
 
 ![Design preview for the Loopstudios landing page coding challenge](./src/design/desktop-preview.jpg)
+
+## Release date: 09/12/2022
