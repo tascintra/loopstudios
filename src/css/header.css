@@ -1,14 +1,10 @@
-.header-back {
-  /* background: linear-gradient(45deg, #8c2fae, #b447f0); */
-  background: url("../../public/desktop/image-hero.jpg") no-repeat center center;
-  background-size: cover;
-}
-
 header {
   /* background: url("../../public/desktop/image-hero.jpg"); */
   height: 100vh;
   max-width: 1440px;
   margin: 0 auto;
+  background: url("../../public/desktop/image-hero.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .top-menu {
