@@ -33,5 +33,15 @@ body {
 }
 
 .default-padding {
-  padding: 160px 164px;
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.defailt-margin {
+  margin: 72px 204px;
+}
+
+.marked-border {
+  border: 1px black dashed;
 }
