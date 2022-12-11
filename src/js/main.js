@@ -1,4 +1,4 @@
-import './css/index.css'
+import '/src/css/index.css'
 
 const hamMenu = document.querySelector(".hamburger-lines")
 

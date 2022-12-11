@@ -1,5 +1,5 @@
 header {
-  background: url("../../public/desktop/image-hero.jpg") no-repeat center center;
+  background: url("/public/desktop/image-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -122,7 +122,7 @@ header {
 
 @media (max-width: 650px) {
   .header-back {
-    background: url("../../public/mobile/image-hero.jpg") no-repeat;
+    background: url("/public/mobile/image-hero.jpg") no-repeat;
     background-size: cover;
   }
 
