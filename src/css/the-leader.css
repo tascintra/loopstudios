@@ -1,4 +1,18 @@
-.the-leader h2 {
+.the-leader {
+  position: relative;
+  height: 100vh;
+}
+
+.the-leader-text {
+  padding: 96px;
+  position: absolute;
+  background: #fff;
+  top: 344px;
+  left: 734px;
+  /* border: 1px black dashed; */
+}
+
+.the-leader-text h2 {
   font-family: var(--hglight-font);
   font-size: 3rem;
   font-weight: lighter;
@@ -6,8 +20,12 @@
   max-width: 14ch;
 }
 
-.the-leader p {
-  color: var(--dark-gray);
+.the-leader-text p {
+  padding-top: 32px;
+  color: var(--very-dark-gray);
   max-width: 46ch;
-  line-height: 1.7rem;
+  font-size: .9rem;
+  line-height: 1.5rem;
+
 }
+
