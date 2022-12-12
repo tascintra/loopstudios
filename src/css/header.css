@@ -8,7 +8,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 64px 124px 64px 204px;
+  padding: 64px 164px;
 }
 
 .menu {
@@ -24,7 +24,7 @@ header {
   text-transform: uppercase;
   max-width: 12ch;
   border: 2px solid #fff;
-  padding: 40px 80px 24px 40px;
+  padding: 40px 96px 24px 40px;
 }
 
 .hamburger-lines .line {

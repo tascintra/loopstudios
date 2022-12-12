@@ -32,14 +32,14 @@ body {
   font-family: var(--body-font);
 }
 
-.default-padding {
+.default-container {
   height: 100vh;
   max-width: 1440px;
   margin: 0 auto;
 }
 
 .defailt-margin {
-  margin: 72px 204px;
+  margin: 124px 164px;
 }
 
 .marked-border {

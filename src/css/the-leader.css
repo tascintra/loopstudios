@@ -1,6 +1,6 @@
 .the-leader {
   position: relative;
-  padding-top: 92px;
+  padding-top: 36px;
 }
 
 .the-leader-text {
@@ -8,7 +8,7 @@
   position: absolute;
   background: #fff;
   top: 344px;
-  left: 772px;
+  left: 732px;
 }
 
 .the-leader-text h2 {
