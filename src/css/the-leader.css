@@ -1,14 +1,19 @@
 .the-leader {
-  position: relative;
   padding-top: 36px;
+}
+
+.the-leader-img {
+  position: relative;
 }
 
 .the-leader-text {
   padding: 96px;
   position: absolute;
   background: #fff;
-  top: 344px;
-  left: 732px;
+  top: 35%;
+  left: 51%;
+  width: 100%;
+  z-index: 999;
 }
 
 .the-leader-text h2 {
