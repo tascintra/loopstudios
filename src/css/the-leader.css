@@ -31,3 +31,15 @@
   line-height: 1.5rem;
 }
 
+@media (max-width: 1285px) {
+  .the-leader-text {
+    padding: 64px;
+    top: 45%;
+    left: 55%;
+  }
+
+  .the-leader-img {
+    max-width: 53%;
+    height: auto;
+  }
+}
