@@ -53,6 +53,15 @@
 
 @media (max-width: 1055px) {
   .the-leader-text {
-    padding: 48px;
+    left: 75%;
+  }
+
+  .the-leader-text h2 {
+    font-size: 2.3rem;
+  }
+
+  .the-leader-text p {
+    min-width: 34ch;
   }
 }
+

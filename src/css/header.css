@@ -91,7 +91,7 @@ header {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .top-menu {
     padding: 65px 60px;
   }
