@@ -4,4 +4,4 @@
 
 ![Design preview for the Loopstudios landing page coding challenge](./src/design/desktop-preview.jpg)
 
-## Release date: 12/29/2022
+## Release date: 01/06/2023
