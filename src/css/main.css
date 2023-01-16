@@ -40,7 +40,6 @@ body {
 
 .std-margin {
   margin: 124px 164px;
-  min-width: 400px;
 }
 
 @media (max-width: 1100px) {
