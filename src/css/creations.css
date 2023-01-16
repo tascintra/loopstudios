@@ -17,3 +17,21 @@
 .btn-see-all {
   justify-self: end;
 }
+
+.creations-img {
+  position: relative;
+  height: 100%;
+}
+
+.creations-txt {
+  position: absolute;
+  bottom: 48px;
+  left: 24px;
+  max-width: 5ch;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 2rem;
+  font-family: var(--hglight-font);
+  line-height: 2.1rem;
+}
