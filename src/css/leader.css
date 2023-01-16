@@ -69,11 +69,13 @@
 @media (max-width: 900px) {
   .the-leader {
     display: flex;
-
+    height: fit-content;
+    width: fit-content;
   }
 
   .the-leader-text {
     position: initial;
+    max-width: 633px;
   }
 
   .the-leader-img {
