@@ -1,0 +1,14 @@
+.our-creations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.creations-title {
+  grid-column: span 3;
+}
+
+.btn-see-all {
+  justify-self: end;
+}
