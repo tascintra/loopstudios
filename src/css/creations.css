@@ -3,7 +3,7 @@
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
-  gap: 28px;
+  gap: 30px;
 }
 
 .our-creations{
@@ -21,17 +21,19 @@
 .creations-img {
   position: relative;
   height: 100%;
+  filter: brightness(0.9);
 }
 
 .creations-txt {
   position: absolute;
-  bottom: 48px;
-  left: 24px;
+  bottom: 56px;
+  left: 40px;
   max-width: 5ch;
   color: #fff;
   text-transform: uppercase;
-  font-weight: lighter;
-  font-size: 1.875rem;
+  font-weight: 300;
+  font-variation-settings: "wght" 320, "GRAD" 88;
+  font-size: 2rem;
   font-family: var(--hglight-font);
-  line-height: 1.875rem;
+  line-height: 2rem;
 }
