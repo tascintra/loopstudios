@@ -48,6 +48,12 @@ body {
   }
 }
 
+@media (max-width: 900px) {
+  .std-margin {
+    margin: 124px 60px;
+  }
+}
+
 .marked-border {
   border: 1px tomato dashed;
 }
