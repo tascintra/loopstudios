@@ -51,3 +51,7 @@
 .creations-txt-shorter {
   max-width: 4ch;
 }
+
+.creations-txt-longer {
+  max-width: 12ch;
+}
