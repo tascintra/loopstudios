@@ -24,8 +24,8 @@ a {
   --dark-gray: hsl(0, 0%, 55%);
   --very-dark-gray: hsl(0, 0%, 41%);
 
-  --hglight-font: "Josefin Sans", Helvetica, sans-serif;
-  --body-font: "Alata", Helvetica, sans-serif;
+  --hglight-font: 'Josefin Sans', Helvetica, sans-serif;
+  --body-font: 'Alata', Helvetica, sans-serif;
 }
 
 body {
@@ -62,4 +62,36 @@ body {
 
 .marked-border {
   border: 1px tomato dashed;
+}
+
+.std-subtitle {
+  font-family: var(--hglight-font);
+  font-size: 3rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  min-width: 14ch;
+}
+
+@media (max-width: 1125px) {
+  .std-subtitle {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .std-subtitle {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .std-subtitle {
+    text-align: center;
+  }
+}
+
+@media (max-width: 620px) {
+  .std-subtitle {
+    font-size: 2.6rem;
+  }
 }
