@@ -1,7 +1,6 @@
 header {
-  background: url('/public/desktop/image-hero.jpg') no-repeat center center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/public/desktop/image-hero.jpg') no-repeat center center;
   background-size: cover;
-  filter: brightness(0.9);
 }
 
 .top-menu {

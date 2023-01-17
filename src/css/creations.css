@@ -51,7 +51,7 @@
   bottom: 32px;
   left: 40px;
   max-width: 8ch;
-  color: hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 100%);
   text-transform: uppercase;
   font-family: var(--hglight-font);
   font-weight: 300;
