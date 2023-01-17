@@ -1,5 +1,6 @@
 header {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/public/desktop/image-hero.jpg') no-repeat center center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/public/desktop/image-hero.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -25,7 +26,7 @@ header {
   max-width: 12ch;
   border: 2px solid hsl(0, 0%, 100%);
   padding: 40px 96px 24px 40px;
-  margin-top: 144px;
+  margin-top: 164px;
   letter-spacing: 0.1rem;
   text-align: left;
 }
@@ -125,6 +126,7 @@ header {
   .main-title {
     font-size: 3.5rem;
     max-width: 100%;
+    margin-top: 220px;
   }
 }
 
