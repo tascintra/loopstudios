@@ -31,6 +31,12 @@ header {
   text-align: left;
 }
 
+@media (max-height: 900px) {
+  .main-title {
+  margin-top: 124px;
+  }
+}
+
 .hamburger-lines .line {
   display: none;
   height: 4px;
