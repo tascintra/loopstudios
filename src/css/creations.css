@@ -16,6 +16,19 @@
 
 .btn-see-all {
   justify-self: end;
+  border: 2px solid hsl(0, 0%, 32%);
+  border-radius: 2px;
+  padding: 8px 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  color: hsl(0, 0%, 16%);
+  transition: 0.4s;
+}
+
+.btn-see-all:hover {
+  background: hsl(0, 0%, 16%);
+  color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 16%);
 }
 
 .creations-img {
