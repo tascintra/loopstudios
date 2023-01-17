@@ -34,6 +34,7 @@
 .creations-img {
   position: relative;
   height: 100%;
+  cursor: pointer;
 }
 
 .creations-img::before {
