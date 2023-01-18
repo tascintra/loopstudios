@@ -29,3 +29,8 @@ function handleDeactivateCard() {
 creationsCards.forEach((item) =>
   item.addEventListener('mouseleave', handleDeactivateCard)
 );
+
+// handling creations card width size
+creationsCards.forEach((item) => {
+  item.children[0].setAttribute('media', '(max-width: 700px)')
+})
