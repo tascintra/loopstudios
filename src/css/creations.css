@@ -54,14 +54,14 @@
 .creations-txt {
   position: absolute;
   bottom: 32px;
-  left: 40px;
+  left: 16%;
   max-width: 8ch;
   color: hsl(0, 0%, 100%);
   text-transform: uppercase;
   font-family: var(--hglight-font);
   font-weight: 300;
   font-variation-settings: "wght" 300, "GRAD" 88;
-  font-size: 2rem;
+  font-size: 2vw;
   line-height: 2rem;
   z-index: 2;
 }
@@ -77,3 +77,4 @@
 .creations-txt-longer {
   max-width: 12ch;
 }
+
