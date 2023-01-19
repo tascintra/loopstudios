@@ -87,6 +87,14 @@
   max-width: 12ch;
 }
 
+@media (min-width: 1700px) {
+  .creations-txt {
+    font-size: 1.6vw;
+    line-height: 1.6vw;
+    left: 15.5%;
+  }
+}
+
 @media (max-width: 950px) {
   .btn-see-all {
     font-size: 1.2vw;
@@ -114,7 +122,6 @@
     left: 6%;
     font-size: 6vw;
     line-height: 6vw;
-    z-index: 2;
   }
 
   .creations-img::before {
