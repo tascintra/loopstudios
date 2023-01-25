@@ -4,9 +4,10 @@
   align-items: center;
   justify-content: center;
   gap: 1.8vw;
+  max-width: 100%;
 }
 
-.our-creations{
+.our-creations {
   height: fit-content;
 } 
 
@@ -19,7 +20,6 @@
   justify-self: end;
   border: 2px solid #7e7e7e;
   border-radius: 2px;
-  /* padding: 8px 40px; */
   width: 62%;
   height: 38%;
   margin-bottom: 50px;
@@ -44,6 +44,10 @@
   position: relative;
   height: 100%;
   cursor: pointer;
+}
+
+.creations-img img {
+  width: 100%;
 }
 
 .creations-img::before {
@@ -103,6 +107,14 @@
 
   .creations-title {
     margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .our-creations {
+    height: fit-content;
+    max-width: 100vw;
+    justify-content: center;
   }
 }
 
