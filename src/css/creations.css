@@ -32,6 +32,7 @@
   color: #1e1e1e;
   transition: 0.4s;
   font-size: 1vw;
+  z-index: 200;
 }
 
 .btn-see-all:hover {
