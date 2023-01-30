@@ -12,7 +12,7 @@ header {
   padding: 64px 164px;
 }
 
-.menu {
+.menu-prim {
   display: flex;
   gap: 36px;
 }
@@ -88,7 +88,7 @@ header {
     padding: 65px 100px;
   }
 
-  .menu {
+  .menu-prim {
     gap: 25px;
   }
 
