@@ -1,16 +1,10 @@
 footer {
   background: #000;
-  padding: 44px 164px;
-  margin-top: 44px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
 }
 
-.footer-menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.footer-container {
+  max-height: 160px;
+  /* padding: 44px 164px; */
 }
 
 .menu-sec {
