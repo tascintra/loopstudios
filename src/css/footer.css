@@ -6,7 +6,7 @@ footer {
   max-height: 160px;
   display: flex;
   flex-direction: column;
-  gap: 36px;
+  gap: 28px;
   justify-content: center;
 }
 
