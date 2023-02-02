@@ -148,5 +148,8 @@
     font-size: 1.2rem;
     padding: 8px 40px;
     letter-spacing: 0.20rem;
+    max-width: 160px;
+    height: 44px;
+    margin-top: 16px;
   }
 }
