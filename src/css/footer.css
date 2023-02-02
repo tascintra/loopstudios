@@ -6,6 +6,7 @@ footer {
   max-height: 160px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 28px;
   justify-content: center;
 }
@@ -30,6 +31,10 @@ footer {
 }
 
 @media (max-width: 575px) {
+  .footer-container {
+    margin-top: 96px;
+  }
+  
   .footer-menu {
     margin: 0px 36px;
   }
@@ -38,6 +43,7 @@ footer {
 .menu-sec {
   color: #fff;
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   font-size: 0.875rem;
 }
@@ -59,4 +65,5 @@ footer {
 .disclaimer {
   color: var(--dark-gray);
   font-size: 0.875rem;
+  text-align: right;
 }

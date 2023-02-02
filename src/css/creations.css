@@ -122,7 +122,7 @@
 @media (max-width: 700px) {
   .our-creations-container {
     grid-template-columns: 1fr;
-    gap: 4.8vw;
+    gap: 6.4vw;
   }
 
   .creations-title {
