@@ -17,6 +17,24 @@ footer {
   margin: 0px 164px;
 }
 
+@media (max-width: 1100px) {
+  .footer-menu {
+    margin: 0px 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer-menu {
+    margin: 0px 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-menu {
+    margin: 0px 36px;
+  }
+}
+
 .menu-sec {
   color: #fff;
   display: flex;
