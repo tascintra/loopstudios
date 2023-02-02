@@ -3,7 +3,7 @@ footer {
 }
 
 .footer-container {
-  max-height: 160px;
+  height: 160px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -37,6 +37,21 @@ footer {
   
   .footer-menu {
     margin: 0px 36px;
+  }
+}
+
+@media (max-width: 475px) {
+  .footer-container {
+    height: 468px;
+  }
+
+  .footer-menu {
+    flex-direction: column;
+  }
+
+  .menu-sec {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
